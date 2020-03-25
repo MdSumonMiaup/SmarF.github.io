@@ -406,7 +406,6 @@ nav ul li.active::after {
 }
 .about-button {
 	display: inline-block;
-	margin-right: 2rem;
 }
 
 /*****************/
@@ -825,6 +824,10 @@ textarea {
 }
 .scoial-icon ul li a:hover {
 	color: #52c8f9;;
+}
+.col-lg-4.col-md-4.col-sm-12.aos-init.aos-animate {
+	padding: 0 !important;
+	margin: 15px;
 }
 
 /*****************/
