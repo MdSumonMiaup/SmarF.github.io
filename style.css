@@ -164,6 +164,11 @@ img {
 	height: 100%;
 	transition-delay: .9s;
 }
+.four-border a:hover {
+	background: #fff !important;
+	transition: all 0.9s ease-out 0.9s;
+}
+
 /*****************/
 /** Header section **/
 /*****************/
@@ -713,11 +718,62 @@ nav ul li.active::after {
 .contact {
 	background: rgba(82, 200, 249, 0.17);
 	overflow: hidden;
-	text-align: left !important;
+	text-align: left;
 	font-size: 1.6rem;
 }
 .contact .heading-style {
 	text-align: center !important;
+}
+.contact-box {
+	padding: 0 20%;
+}
+label {
+	width: 100%;
+}
+label input {
+	width: 100%;
+	padding: 5px 15px;
+	border: 0;
+	background: #52c8f9;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	color: #000;
+	font-size: 1.4rem;
+}
+textarea {
+	width: 100%;
+	padding: 5px 10px;
+	color: #000;
+	background: #52c8f9;
+	border: 0;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.submit {
+	text-align: center;
+}
+.four-border.submit-btn {
+	margin-top: 1rem;
+}
+.four-border input {
+	border: 0;
+	background: transparent;
+	cursor: pointer;
+}
+
+
+/*****************/
+/** contact section end **/
+/*****************/
+
+
+/*****************/
+/** contact footer section start **/
+/*****************/
+
+.contact-footer {
+	font-size: 1.6rem;
+	text-align: left !important;
 }
 .contact-details h2 {
 	font-size: 2rem;
@@ -771,11 +827,9 @@ nav ul li.active::after {
 	color: #52c8f9;;
 }
 
-
 /*****************/
-/** contact section end **/
+/** contact footer section end **/
 /*****************/
-
 
 .footer {
 	text-align: center;
