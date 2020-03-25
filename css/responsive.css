@@ -103,6 +103,9 @@
 	.contact-box {
 		padding: 0 5%;
 	}
+	.skill-bar {
+		padding: 0 10%;
+	}
 }
 
 
@@ -123,7 +126,7 @@
 		padding: 0 40%;
 	}
 	.skill-bar {
-		padding: 0 10%;
+		padding: 0 1.5rem;
 	}
 	.portfolio-manu {
 		padding: 2rem 0;
@@ -132,7 +135,7 @@
 		height: 400px;
 	}
 	.contact-box {
-		padding: 0;
+		padding: 0 1.5rem;
 	}
 
 }
