@@ -34,6 +34,7 @@ img {
 .style {
 	padding: 10rem;
 	text-align: center;
+	overflow: hidden;
 }
 .heading-style h2 {
 	font-size: 4rem;
