@@ -12,6 +12,9 @@ html {
 :active {
 	outline: 0 !important;
 }
+button {
+	cursor: pointer;
+}
 .row {
 	margin: 0 !important;
 }
